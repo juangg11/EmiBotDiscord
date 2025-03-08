@@ -1,0 +1,243 @@
+[Jutsus Gratis]
+Consigue jutsus completando misiones o aprendiendo de maestros como Naruto, Danzo, C, Itachi, Jiraiya y Sai.
+Obtén crates gratis farmeando en la dungeon, completando el battlepass o en el evento de Toneri.
+Compra jutsus de Storm en el mercado de jugadores.
+Herramientas científicas de Boruto usan jutsus y se consiguen en el spawn cogiendo una mision.
+Recomendacion: Explora el mundo de Storm Craft hay muchas cosas que te ayudarán a ser más fuerte.
+
+[Kekkei Genkai]
+Cambia de Kekkei Genkai gratis farmeando en las raids boss de Madara, Minato, Equipo 7, Naruto Kyubi y Isshiki.
+Se obtiene en chunin y hay kekkei genkais que pueden obtener más jutsus pagando un pack en la tienda.
+Los kekkei genkai que hay son: Hielo. Ceniza, Lava, Magnetismo, Tormenta, Acero, Ácido, Vapor, Explosion y Tifon.
+
+[Estilo de pelea]
+Espadachin: Rapido y veloz con ataques que ignoran las resistencias del adversario.
+Artista marcial: Potencia mucho tus habilidades de taijutsu con ataques muy poderosos y pasivas que te vuelven resistente y letal.
+Medico: Tiene técnicas curativas y resiste muchos ataques.
+Marionetista: Controla marionetas como las de Kankuro y la del tercer Kazekage. Ataca desde la distancia.
+El estilo de pelea no se puede cambiar a no ser que haya un wipe.
+
+[Crates comprables]
+Hay varias crates:
+Mitica Legendaria y Storm: Son 3 crates que cuentan con jutsus elementales, talismanes, invocaciones y Doujutsus legendarios como el Kotaigan y el Senringan. Comprables.
+Temporada: Cambia cada ciertos meses tiene jutsus, invocaciones y cosas exclusivas temporalmente muy poderosa. Comprable.
+Prodigio: Se puede conseguir una Reencarnacion o ser prodigio. Comprable.
+Chakra natural: Se pueden conseguir marcas malditas y modos sabios sapo serpiente y babosa.
+Vote: Se consigue al votar por el servidor con "/vote".
+Party: La obtienen los jugadores conectados cuando se cumple un limite de votos.
+Otras: Hay crates que se consiguen en eventos temporales como Halloween y Navidad.
+
+[Robar Bijuu y Sharingan]
+- Métodos para robar un bijuu:
+1 Mata a un jinchuriki y que alguien lo selle (Uzumaki).
+2 Usa el Rinnegan para robar bijuus (solo encerrarlos en el Gedo Mazo).
+- Restricciones:
+  - Pierdes bijuus al morir (vuelven a la tienda).
+  - No se pueden intercambiar entre Gedo Mazos.
+  - No se puede robar en minas, Koth, warp PvP o aldeas.
+  - Para ser robado: ser Chunin y perderás tu personaje.
+- Requisitos:
+  - Para sellar/implantar: ser Chunin prodigio o Jounin.
+
+- Métodos para robar un Doujutsu:
+Para robar un doujutsu debes matar a alguien que lo posea y ser médico nivel 30. Podrás implantarselo a alguien cercano o a ti mismo. Solo podrás robarlo a alguien que sea chunin o más y esta persona morirá.
+Además deberás avisar antes de hacerlo mediante un ticket y adjuntar pruebas de la muerte.
+
+[Modo Sabio]
+- Modo Sabio de los 6 Caminos:
+  - Sella todos los bijuus en el Gedo Mazo con el Rinnegan.
+  - Desbloquea jutsus para invocar y sellar al 10 colas.
+  - Si te sellas el 10 colas, obtienes el modo Sabio de los 6 Caminos.
+- Modos Sabio serpiente, babosa y sapo:
+  - Consíguelos en crates de chakra natural (eventos).
+  - Cada modo tiene ventajas y jutsus exclusivos.
+
+[Farmeo]
+- Estilos de Pelea:
+  - Farmea XP subiendo de nivel recogiendo drops o yendo al evento del Toneri también se puede conseguir xp de estilo de pelea en misiones como la misión diaría (`!exp` para ver la xp que tienes).
+  - Canjea habilidades en `/menu`.
+- Pase de Batalla:
+  - Farmea crates, mata ninjas de práctica y completa misiones.
+- Jutsus del Mod:
+  - Farmea XP con el item del mod en la mano secundaria.
+- Vida y Chakra:
+  - Farmea golpeando a NPCs o jugadores.
+  - Ninjas prodigio superan límites de vida y chakra.
+- Armas:
+  - Consigue fragmentos de armas en dungeons y cánjealos en la tienda de tu aldea.
+- Jutsus Esotéricos:
+  - Farmea con login y drops legendarios.
+
+[Pergaminos]
+- Pergaminos S:
+  - Obtén con login.
+  - Intercambia por items en el spawn.
+  - Se pueden conseguir crates gratis como Legendarias o Miticas.
+- Pergaminos Esotéricos:
+  - Consigue logeándote semanalmente.
+  - Cambia por jutsus con un comerciante ilegal que se va moviendo por el mapa.
+Los guias del server y las personas con rango S+ obtienen más recompensas de login.
+
+[Rangos]
+- Genin:
+  - Sube de academia a genin haciendo las misiones principales.
+  - Completa misiones principales.
+  - Obtienes jutsus elementales.
+- Chunin:
+  - Sube farmeando en dungeons o completando un examen Chunin.
+- Jounin:
+  - Completa una misión especial del Kage o acumula méritos de guerra. También puedes subir con un examen.
+
+[Anbu]
+- Requisitos:
+  - Solo Jounin pueden ser Anbu.
+  - Número de Anbu = mitad de Jounin en la aldea.
+- Ventajas:
+  - Doble recompensa por eliminar criminales del libro bingo.
+  - Jutsus especiales exclusivos.
+- Responsabilidades:
+  - Trabajan en secreto y eliminan criminales peligrosos.
+
+[Rinnegan y Tenseigan]
+- Rinnegan:
+  - Requisitos: Sharingan y células Senju.
+  - Obtén Sharingan comprando Clan Uchiha, logros o matando a un Uchiha (médico Jounin o Chunin prodigio).
+  - Obtén células Senju matando a un Senju (informa al Staff).
+  - Para usarlo: ser Jounin prodigio, Kage o líder de organización.
+- Tenseigan:
+  - Requisitos: Clan Kaguya y Hyuga.
+  - Mismo proceso que el Rinnegan.
+
+[Kage]
+- Elección:
+  - Votación en la aldea (o por el Staff).
+- Responsabilidades:
+  - Portavoz de la aldea en reuniones.
+  - Asigna escolta personal.
+  - Participa en eventos para mejorar el ranking de la aldea.
+  - Puede declarar guerras.
+  - Asigna misiones a los ninjas de su aldea con las que pueden conseguir jutsus propios de cada aldea.
+- Cambio de Kage:
+  - Si el 51% de la aldea lo desea, se celebran elecciones.
+
+[Renegado]
+- Requisitos:
+  - Ser Chunin o superior.
+  - Al renegar, te unes a la aldea de la lluvia.
+- Consecuencias:
+  - Entras en el libro bingo con recompensa.
+  - No puedes unirte a otra aldea.
+  - Puedes matar a gente en su aldea declarandoles guerra.
+  - Al morir, pierdes todo.
+  - Puedes volver a tu aldea original una vez (cumpliendo castigo del Kage).
+
+[Koth]
+- Evento diario para ganar crates koth. Se trata de capturar un punto durante 3 minutos sin que nadie te expulse del lugar.
+- Horario:
+  - Genin/Chunin: 22:30 hora española.
+  - Jounin/Kage: 20:00 hora española.
+- Cómo ir: Usa el icono del koth en el menú de warps.
+
+[Toneri]
+- Boss épico con vida proporcional al número de participantes.
+- Drops:
+  - XP, crates legendarias, míticas y prodigio, fragmentos de rango, mejora esotérica y puntos del evento.
+- Horario:
+  - Martes, Jueves y Sábado a las 23:30 hora española.
+- Cómo ir:
+  - Completa la misión de Hashirama en la aldea Senju.
+  - Canjea el ticket antes de la raid.
+
+[Error Mods]
+- Si hay errores en la instalación de mods, pasa el crash report a un helper o IA.
+
+[IP y Mods]
+- IP: 151.80.47.131:25629
+- Enlace mods: https://mega.nz/folder/9sAAxAKJ#qZpn4uRBML-8LUJFW25PPg
+
+[Empezar en el Servidor]
+- Habla con el NPC del Kit Inicial en el spawn para recibir:
+  - Útiles ninja, comida y 3 llaves (Clan, Elemento, Estilo de Pelea).
+- Usa las llaves en las Crates (Shift + Click Derecho).
+- Recomendación: Completa misiones para obtener un arma y jutsus elementales antes de fortalecerte en el entrenamiento. No te fies de ninjas de otra aldea pueden traicionarte.
+- Ninja Exp:
+  - Golpea a NPCs o jugadores.
+- Jutsu Exp:
+  - Equipa el jutsu en la mano secundaria y mata ninjas de práctica.
+- Canjeo de Clan y Elemento:
+  - Busca NPCs en el spawn y canjea pergaminos.
+- Dinero:
+  - Farmea en dungeon, completa misiones, vende objetos en el mercado o caza jugadores del libro bingo.
+- Misiones:
+  - Hay varios tipos pero deberias empezar haciendo las que manda el npc del kage de tu aldea.
+- Subir de Rango:
+  - Genin: Completa misiones principales.
+  - Chunin: Pasa exámenes o completa la dungeon Chunin.
+  - Jounin: Mision del kage con riesgo o hacer examenes Jounin.
+
+[Reencarnaciones]
+Obtención:
+Crate prodigio.
+Asura:
+Habilidades:
+Orbes buscadores de la verda, Protección Gudodama, Transformación: Sabio de los 6 caminos, Renacimiento.
+Indra:
+Habilidades:
+Furia del Susanoo, Relámpago ancestral, Genjutsu de las mil sombras, Flecha de Indra.
+Karma Boruto:
+Habilidades:
+Tajo veloz, Despertar del Karma, Rasengan desparición de luna.
+Karma Kawaki:
+Habilidades:
+Salida de emergencia, Brazo de karma, Eje karma: destruccion ritual.
+
+[Clanes Comunes]
+Tienen 10% de salir en la crate
+Lee: Aunque requiere mucho farmeo es de los más potentes. Para ver la XP de las puertas !xp.
+Aburame: Tiene el stun en area mas peligroso del juego sus insectos son mortales aunque no hagan daño.
+Uzumaki: Se puede curar y bufear ademas de robar chakra.
+Akimichi: Se bufea a si mismo para volverse muy poderoso, su fuerza depende del hambre.
+Nara: Tiene stuns muy potentes que gastan mucho chakra.
+Inozuka: Muy poderoso cuando invoca su perro si eres prodigio es mas fuerte.
+Yamanaka: Cuenta con stuns y técnicas de control mental como en el anime.
+Kamizuru: Es muy malo deberias cambiar de clan, controla las abejas con veneno.
+Hozuki: Curacion mas fuerte del servidor y tiene mucho dps.
+Tsuchigumo: Clan debuffer y con poco cooldown dispara telarañas.
+
+[Clanes Raros]
+Tienen 5% de salir en la crate.
+Yotsuki: Fuerte y veloz sus ataques ignoran armadura es el clan raikage.
+Namikaze: No es ofensivo pero tiene teletransportes como minato.
+Kaguya: Buena defensa con la armadura de huesos y genera armas de huesos.
+Ryu: Controla tecnicas ofensivas y de vuelo.
+Jashin: Pega porcentualmente y es capaz de volverse inmortal.
+Chinoike: Tiene genjutsus y daño controla sangre.
+Hozuki: Se puede transformar en tiburon y tiene mucho chakra.
+
+[Clanes Legendarios]
+Tienen 2% de salir en la crate.
+Hyuga: Puede sellar el chakra y protegerse como en el anime.
+Senju: Buena curacion invocacion de golem y stun de arboles.
+Uchiha: Capacidad de genjutsus y defensa con el sharingan y susanoo.
+
+[Meta del servidor]
+Las cosas mas chetadas son las habilidades de algunos clanes, explora sus habilidades en chunin ya que pueden ser realmente poderosas. Ejemplos: Genjutsu Uchiha, Curacion de Hozuki, Stun Nara, Stun Aburame.
+Cosas de evento como premios de torneo o de un evento temporal también suelen tener mecánicas muy útiles. Ejemplos: Rasengan de Ashura, Chibaku Tensei 6 Caminos.
+Objetos de temporadas a parte de la exclusividad temporal son poderosos y únicos como respiraciones elementales (Agua, Rayo, Fuego, Bestia, Insecto, Viento y Sonido).
+Jinchurikis: Muy veloces con jutsus exclusivos de cada bijuu y capacidad de bijuudama.
+Doujutsus: Mangekyo Sharingan, Rinnegan, Tenseigan, Byakugan, Senringan y Kotaigan.
+
+[Elegir aldea]
+Para elegir aldea debes escribir "!eligeAldea" en el chat de minecraft.
+
+[Reiniciar personaje]
+No se puede reiniciar el personaje a no ser que mueras en rol pero puedes conseguir reinicio de clan elemento o kekkei comprandolo a jugadores o farmeando en Raid Boss
+
+[Java]
+El servidor es para Java no para Bedrock
+
+[Version]
+Minecraft 1.12.2
+
+[Clave mods]
+Los mods no tienen clave, debes pulsar al enlace de mega no a la imagen.
