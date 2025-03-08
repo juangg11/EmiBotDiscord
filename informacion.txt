@@ -37,10 +37,10 @@ Otras: Hay crates que se consiguen en eventos temporales como Halloween y Navida
   - No se puede robar en minas, Koth, warp PvP o aldeas.
   - Para ser robado: ser Chunin y perderás tu personaje.
 - Requisitos:
-  - Para sellar/implantar: ser Chunin prodigio o Jounin.
+  - Para sellar/implantar: ser Chunin prodigio o Jounin en el acto.
 
 - Métodos para robar un Doujutsu:
-Para robar un doujutsu debes matar a alguien que lo posea y ser médico nivel 30. Podrás implantarselo a alguien cercano o a ti mismo. Solo podrás robarlo a alguien que sea chunin o más y esta persona morirá.
+Para robar un doujutsu debes matar a alguien que lo posea y ser médico nivel 30. Podrás implantarselo a alguien cercano o a ti mismo solamente en el momento. Solo podrás robarlo a alguien que sea chunin o más y esta persona morirá.
 Además deberás avisar antes de hacerlo mediante un ticket y adjuntar pruebas de la muerte.
 
 [Modo Sabio]
@@ -101,7 +101,7 @@ Los guias del server y las personas con rango S+ obtienen más recompensas de lo
 [Rinnegan y Tenseigan]
 - Rinnegan:
   - Requisitos: Sharingan y células Senju.
-  - Obtén Sharingan comprando Clan Uchiha, logros o matando a un Uchiha (médico Jounin o Chunin prodigio).
+  - Obtén Sharingan comprando Clan Uchiha o matando a un Uchiha (médico Jounin o Chunin prodigio).
   - Obtén células Senju matando a un Senju (informa al Staff).
   - Para usarlo: ser Jounin prodigio, Kage o líder de organización.
 - Tenseigan:
