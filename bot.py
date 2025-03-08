@@ -98,6 +98,74 @@ async def ask(ctx, *, question: str):
     except Exception as e:
         await ctx.send(f"Hubo un error al procesar la pregunta: {e}")
 
+# Comando para consultar las normas del servidor
+@bot.command(name='rule')
+async def rule(ctx, *, question: str):
+    await ctx.defer()  # Respuesta diferida (para indicar que el bot está procesando)
+
+    # Cargar el contenido completo del archivo txt de normas
+    normas_servidor = cargar_normas()
+
+    # Contexto sobre quién es el bot y qué hace
+    context = (
+        "Eres un bot asistente del servidor de Minecraft StormCraft ambientado en Naruto. "
+        "Tu tarea es responder preguntas y brindar explicaciones breves sobre las normas del servidor. "
+        "Debes ayudar a los jugadores a resolver sus dudas o conflictos con las normas. "
+        f"Aquí tienes las normas del servidor:\n{normas_servidor} "
+    )
+    
+    # URL de la API de Gemini
+    model = "gemini-2.0-flash-exp"  # Sustituye con el modelo que deseas usar
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
+    
+    # Datos para la solicitud con contexto
+    data = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": context},
+                    {"text": question}
+                ]
+            }
+        ]
+    }
+
+    # Encabezados de la solicitud
+    headers = {
+        'Content-Type': 'application/json'
+    }
+
+    # Enviar la solicitud a la API
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()  # Lanza una excepción si la respuesta no es exitosa
+        answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
+        
+        # Dividir la respuesta en fragmentos de menos de 2000 caracteres
+        fragmentos = dividir_texto(answer)
+        
+        # Enviar cada fragmento como un mensaje separado
+        for fragmento in fragmentos:
+            await ctx.send(fragmento)
+    except requests.exceptions.HTTPError as e:
+        if response.status_code == 401:
+            await ctx.send("Error: No autorizado. Verifica tu clave de API.")
+        elif response.status_code == 404:
+            await ctx.send("Error: Endpoint no encontrado. Revisa la URL o el modelo.")
+        else:
+            await ctx.send(f"Hubo un error al procesar la pregunta: {e}")
+    except Exception as e:
+        await ctx.send(f"Hubo un error al procesar la pregunta: {e}")
+
+# Función para cargar las normas desde el archivo normas.txt
+def cargar_normas():
+    try:
+        with open("normas.txt", "r", encoding="utf-8") as file:
+            return file.read()  # Lee todo el contenido del archivo
+    except FileNotFoundError:
+        print("Error: El archivo 'normas.txt' no se encontró.")
+        return ""
+    
 # Evento cuando el bot está listo
 @bot.event
 async def on_ready():
