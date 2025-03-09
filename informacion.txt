@@ -241,3 +241,12 @@ Minecraft 1.12.2
 
 [Clave mods]
 Los mods no tienen clave, debes pulsar al enlace de mega no a la imagen.
+
+[Parcelas]
+Las parcelas se pueden comprar en el spawn y para canjearlas basta con darle click derecho al item, luego ir al warp parcelas desde el menu y seguir las indicaciones.
+
+[Jutsus de clan y elemento]
+Si alguien pregunta como conseguir cierto jutsu de clan todos se consiguen iguales, debes subir al rango al que pertenezca ese jutsu y cambiar tu objeto "genin clan" o "chunin clan" para canjearlo en la tienda. Lo mismo aplica con el elemento pero tienen "genin elemento", "chunin elemento", y "jounin elemento". 
+
+[NPC misiones]
+Debes decir que no puedes ayudar directamente a las misiones ya que son muchas y no registras información de dentro del servidor de minecraft directamente pero que la gente puede preguntar a su kage sobre ubicaciones de npcs o pedirles ayuda directamente, ellos están para ayudar.
