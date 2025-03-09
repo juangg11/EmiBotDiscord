@@ -6,45 +6,37 @@ import os
 import webserver
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
-# Cargar configuración
 GEMINI_API_KEY = "AIzaSyBnaO6WXeemBkFS5jpaaltCfflvCltZgAY"
 
-# Configuración del bot
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='/', intents=intents)
 
-# Cargar información del archivo txt completo
 def cargar_informacion():
     try:
         with open("informacion.txt", "r", encoding="utf-8") as file:
-            return file.read()  # Lee todo el contenido del archivo
+            return file.read()
     except FileNotFoundError:
         print("Error: El archivo 'informacion.txt' no se encontró.")
         return ""
 
-# Función para dividir un texto en fragmentos de menos de 2000 caracteres
 def dividir_texto(texto, limite=2000):
     fragmentos = []
     while len(texto) > limite:
-        # Encuentra el último espacio dentro del límite
         ultimo_espacio = texto.rfind(' ', 0, limite)
         if ultimo_espacio == -1:
-            ultimo_espacio = limite  # Si no hay espacios, corta en el límite
+            ultimo_espacio = limite
         fragmentos.append(texto[:ultimo_espacio])
-        texto = texto[ultimo_espacio:].lstrip()  # Elimina espacios al inicio del siguiente fragmento
-    fragmentos.append(texto)  # Añade el último fragmento
+        texto = texto[ultimo_espacio:].lstrip()
+    fragmentos.append(texto)
     return fragmentos
 
-# Comando para hacer preguntas a la IA
 @bot.command(name='ask')
 async def ask(ctx, *, question: str):
-    await ctx.defer()  # Respuesta diferida (para indicar que el bot está procesando)
+    await ctx.defer()
 
-    # Cargar el contenido completo del archivo txt
     informacion_servidor = cargar_informacion()
 
-    # Contexto sobre quién es el bot y qué hace
     context = (
         "Eres un asistente virtual gato macho llamado 'Emi'. Tu tarea es responder preguntas y brindar explicaciones breves "
         "sobre el servidor de Minecraft StormCraft ambientado en Naruto. "
@@ -55,11 +47,9 @@ async def ask(ctx, *, question: str):
         "Complementa esta información con datos de la wiki de Naruto o los videojuegos si corresponde."
     )
     
-    # URL de la API de Gemini
-    model = "gemini-2.0-flash-exp"  # Sustituye con el modelo que deseas usar
+    model = "gemini-2.0-flash-exp"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
     
-    # Datos para la solicitud con contexto
     data = {
         "contents": [
             {
@@ -71,21 +61,17 @@ async def ask(ctx, *, question: str):
         ]
     }
 
-    # Encabezados de la solicitud
     headers = {
         'Content-Type': 'application/json'
     }
 
-    # Enviar la solicitud a la API
     try:
         response = requests.post(url, headers=headers, json=data)
-        response.raise_for_status()  # Lanza una excepción si la respuesta no es exitosa
+        response.raise_for_status() 
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
         
-        # Dividir la respuesta en fragmentos de menos de 2000 caracteres
         fragmentos = dividir_texto(answer)
         
-        # Enviar cada fragmento como un mensaje separado
         for fragmento in fragmentos:
             await ctx.send(fragmento)
     except requests.exceptions.HTTPError as e:
@@ -98,15 +84,12 @@ async def ask(ctx, *, question: str):
     except Exception as e:
         await ctx.send(f"Hubo un error al procesar la pregunta: {e}")
 
-# Comando para consultar las normas del servidor
 @bot.command(name='rule')
 async def rule(ctx, *, question: str):
-    await ctx.defer()  # Respuesta diferida (para indicar que el bot está procesando)
+    await ctx.defer()
 
-    # Cargar el contenido completo del archivo txt de normas
     normas_servidor = cargar_normas()
 
-    # Contexto sobre quién es el bot y qué hace
     context = (
         "Eres un bot asistente del servidor de Minecraft StormCraft ambientado en Naruto. "
         "Tu tarea es responder preguntas y brindar explicaciones breves sobre las normas del servidor. "
@@ -114,11 +97,9 @@ async def rule(ctx, *, question: str):
         f"Aquí tienes las normas del servidor:\n{normas_servidor} "
     )
     
-    # URL de la API de Gemini
-    model = "gemini-2.0-flash-exp"  # Sustituye con el modelo que deseas usar
+    model = "gemini-2.0-flash-exp"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
     
-    # Datos para la solicitud con contexto
     data = {
         "contents": [
             {
@@ -130,21 +111,17 @@ async def rule(ctx, *, question: str):
         ]
     }
 
-    # Encabezados de la solicitud
     headers = {
         'Content-Type': 'application/json'
     }
 
-    # Enviar la solicitud a la API
     try:
         response = requests.post(url, headers=headers, json=data)
-        response.raise_for_status()  # Lanza una excepción si la respuesta no es exitosa
+        response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
         
-        # Dividir la respuesta en fragmentos de menos de 2000 caracteres
         fragmentos = dividir_texto(answer)
         
-        # Enviar cada fragmento como un mensaje separado
         for fragmento in fragmentos:
             await ctx.send(fragmento)
     except requests.exceptions.HTTPError as e:
@@ -157,11 +134,10 @@ async def rule(ctx, *, question: str):
     except Exception as e:
         await ctx.send(f"Hubo un error al procesar la pregunta: {e}")
 
-# Función para cargar las normas desde el archivo normas.txt
 def cargar_normas():
     try:
         with open("normas.txt", "r", encoding="utf-8") as file:
-            return file.read()  # Lee todo el contenido del archivo
+            return file.read() 
     except FileNotFoundError:
         print("Error: El archivo 'normas.txt' no se encontró.")
         return ""
