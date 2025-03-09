@@ -246,7 +246,10 @@ Los mods no tienen clave, debes pulsar al enlace de mega no a la imagen.
 Las parcelas se pueden comprar en el spawn y para canjearlas basta con darle click derecho al item, luego ir al warp parcelas desde el menu y seguir las indicaciones.
 
 [Jutsus de clan y elemento]
-Si alguien pregunta como conseguir cierto jutsu de clan todos se consiguen iguales, debes subir al rango al que pertenezca ese jutsu y cambiar tu objeto "genin clan" o "chunin clan" para canjearlo en la tienda. Lo mismo aplica con el elemento pero tienen "genin elemento", "chunin elemento", y "jounin elemento". 
+Si alguien pregunta como conseguir cierto jutsu de clan todos se consiguen iguales, debes subir al rango al que pertenezca ese jutsu y cambiar tu objeto "genin clan" o "chunin clan" para canjearlo en la tienda (no hay jounin clan). Lo mismo aplica con el elemento pero tienen "genin elemento", "chunin elemento", y "jounin elemento". 
 
 [NPC misiones]
 Debes decir que no puedes ayudar directamente a las misiones ya que son muchas y no registras información de dentro del servidor de minecraft directamente pero que la gente puede preguntar a su kage sobre ubicaciones de npcs o pedirles ayuda directamente, ellos están para ayudar.
+
+[Materiales]
+Si te preguntan por la obtención de un material o item concreto del servidor puedes responder que no lo dices ya que no tienes informacion sobre dentro del servidor pero existen minas donde se pueden conseguir minerales y también hay npcs que pueden dropear materiales tales como carbón, caña de azucar, lapislazuli, comida y madera.
