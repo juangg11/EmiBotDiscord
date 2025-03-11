@@ -253,3 +253,274 @@ Debes decir que no puedes ayudar directamente a las misiones ya que son muchas y
 
 [Materiales]
 Si te preguntan por la obtención de un material o item concreto del servidor puedes responder que no lo dices ya que no tienes informacion sobre dentro del servidor pero existen minas donde se pueden conseguir minerales y también hay npcs que pueden dropear materiales tales como carbón, caña de azucar, lapislazuli, comida y madera.
+
+[Normas]
+
+Anotacion: Las normas están sujetas a cambios, no todo lo que no esté reflejado en ellas es legal ya que no se pueden elaborar unas normas que abarquen todo. En caso de no estar reflejado la última palabra es del staff.
+
+Normas Generales
+Cuando se planee hacer un rol primero debe haber alguien supervisando, en este caso será algún admin como Sora, Kepa, Kurama, o el loremaster que es danieluxu3, en caso que no se cuente con ninguno de ellos el kage de cada aldea se encargará de tomar evidencias del rol.
+
+Para los Kages, deberán abrir un ticket con evidencias (screenshots) del rol realizado junto a una breve descripción.
+
+Nadie que no sea los kages, el staff o el loremaster puede supervisar un rol (si dos ninjas genin, chunin o jonin hacen roles sin ser supervisados de los antes mencionados no se tomara en cuenta).
+
+Si se está en una organización de renegados, solo el lider de los renegados puede abrir ticket de rol y mandar aquellas evidencias (en el caso de que no se este en una organización el renegado puede abrir ticket).
+
+Algunas preguntas que se tomarán en cuenta será:
+
+¿Cuándo y dónde paso?
+
+¿Qué pasó o porque se originó?
+
+¿Quiénes estuvieron involucrados?.
+
+Muerte en rol
+Sabemos que algunos le tienen miedo a la muerte pero hay que aceptarlo puesto que algunos no están de acuerdo con su propia muerte y tienen miedo a rolear por lo que ponemos las siguientes reglas:
+
+Los ninjas de rango Genin no pueden morir ya que sería absurdo e injusto que un jonin mate a un genin que recién empieza.
+
+A partir del rango chunin se corre el riesgo de morir.
+
+Solo puedes morir cuando estás fuera de tu aldea, si un ninja de otra aldea trata de matarte dentro de tu aldea se le dara una sanción a excepción de los renegados.
+
+Los renegados son los únicos que pueden matar dentro y fuera de la aldea al igual que corren el riesgo de morir dentro y fuera de ellas. Pero deben abrir un periodo de guerra en el que solo podrán atacar a esa aldea durante el periodo. Corren riesgo constante de morir en rol.
+
+Posibilidades de muerte en rol:
+Ninja en libro bingo
+Captura de un ninja, este se dividiría en dos fases:
+1ª fase, en esta primera fase el ninja ha sido derrotado en algún tipo de evento PVP entre
+aldeas o misión de captura, como consecuencia sería secuestrado por la aldea ganadora y pasaría a un estado
+de parálisis temporal hasta la 2ª fase.
+2ª fase, evento de ejecución pública, una vez secuestrado el ninja sería sentenciado a una
+ejecución pública, dando la oportunidad a su aldea de rescatarle siempre y cuando consigan
+ganar a la aldea que posee retenido a su ninja en un tiempo límite, si la aldea del ninja
+sentenciado es derrotada, el ninja sería ejecutado y recibiría CK, en cambio si consiguen
+ganar en el tiempo límite el ninja sería liberado y podría conservar su personaje 
+Consecuencias de muerte
+Para que las muertes siguieran teniendo un peso y se tenga que actuar en
+consecuencia a ello, las muertes en evento PVP pasarían a otorgar un estado temporal al
+jugador (Simulando como si el personaje hubiera sido enviado al hospital tras una paliza). 
+Esta medida haría que la muerte siguiera teniendo un gran peso
+sin afectar tan negativamente a los jugadores como sería un CK.
+Además de lo mencionado la pérdida de ninja XP debería de aumentar de manera
+directamente proporcional a la importancia o la magnitud del evento que se esté haciendo,
+por ejemplo en una guerra mundial ninja la pérdida de XP debería de ser muy elevada ya
+que se trata de un evento de enorme magnitud. Dependiendo del caso puede conllevar la pérdida del personaje. 
+Secuestros
+Para los secuestros se tomaron en cuenta los siguientes aspectos:
+
+Solo se puede secuestrar a 2 ninjas por aldea, los secuestradores pueden correr el mismo riesgo.
+
+No existe cambio de aldea, ese ninja no puede cambiarse, o muere o pagan rescate.
+
+Los secuestrados pueden forcejear y tratar de escapar pero deberán derrotar a todos los ninjas de esa aldea conectados.
+
+La aldea que sufrió el secuestro puede ir a rescatar a su compañero pero sufren el riesgo de ser descubiertos y recibir una pérdida de ninjaxp elevada y estado debilitado.
+
+En este caso el kage decide que hacer con los intrusos, si dejarles ir negociando, o matarles con opcioón a que la otra aldea vaya al rescate (en caso de ser genin pueden ir a la cárcel de la aldea)
+
+Los infiltrados corren el riesgo de ser atrapados y encerrados también (en el peor de los casos pueden morir)
+
+El kage de la aldea afectada puede negociar tanto con los secuestradores como con la aldea para llegar a un acuerdo y dejar libre al secuestrado.
+
+En el caso de los renegados el lider de la organización puede negociar con los que secuestraron a sus compañeros al igual que puede negociar para dejar ir a los que ellos secuestraron.
+
+Para secuestrar debe ser una victoria clara y se le tiene que avisar al staff con pruebas
+Otras reglas
+El mangekyo solo se consigue siendo jonin
+
+Los kekeigenkai se consiguen siendo chunin
+
+Los kages no pueden renegar hasta dar su cargo a otro ninja
+
+En caso de tener alianza con otras aldeas, estos no pueden cortar lazos hasta que tengan un motivo coherente.
+
+Para las invocaciones se deben rolear el pacto con la invocacion (katsuyu, manda, jefe sapo etc.)
+
+Los Lee al abrir las 8 puertas en rol ya sea en guerra, invasión o en alguna batalla muere.
+
+En el libro bingo el kage debe especificar captura o muerte, en caso de muerte el renegado no podrá volver nunca a su aldea en caso de captura, sí pero con su consecuente castigo.
+
+Todos los renegados deben estar en el libro bingo con sus caracteristicas detalladas.
+
+Se pueden poner ninjas no renegados en el libro bingo como máximo 1 vez al mes, tienen que haber motivos.
+
+Para ponerlo en muerte, debe ser como mínimo chunin el ninja.
+
+Para que te roben doujutus bijuus y lo que sea tienes que ser chunin
+ 
+
+Normas cuenta secundaria
+Si reniegas en una cuenta la otra que no sea renegado no puede entrar a jugar
+No estar conectadas a la vez las dos cuentas
+Si juegas un evento solo puede jugarlo 1 cuenta . Como el koth (si eres jounin en una puedes ir al de jounin y en la otra al de chunin si eres chunin )
+No tradear con tu segunda cuenta (directamente o indirectamente) y cada tradeo debe ser notificado al staff
+Las cuentas deben pertenecer a la misma aldea
+El que las incumpla se queda sin cuenta secundaria cualquiera de las normas
+ 
+
+Normas Examenes Chunin:
+1 - Las manzanas están permitidas, tanto shuriken etc etc, toda preparacion es válida.
+2- La toxicidad está prohibida, hay que respetar al oponente, cualquier falta de respeto a tu contrincante o al público te hará perder el combate automaticamente.
+3- Hay que hacer caso al examinador, si no se le hace caso no podrás examinarte nunca más.
+4- Guanteletes prohibidos.
+5- Abanico de temari prohibido igual que cosas que empujen constantemente a tu rival (Jutsus o objetos que no tengan cooldown).
+6- Espadas de crate de la crate legandaria prohibidas.
+7- Solo se puede usar 1 vez un jutsu de atravesar bloques o de volar tb una vez. 
+8- Se puede usar pociones curativas como las Largue Health Potion y pociones del MC vanilla.
+9- No se pueden usar Karmas ni Reencarnaciones. Si se puede usar los jutsus del prodigio.
+10- Se puede usar todo lo relacionado con las crate Mitica, party y vote.
+11-No se pueden usara jutsus,objetos ni nada relacionado de eventos temporales ni eventos permanentes.(Exceptuando el jutsu de Multi Clones de discord que se consigue invitando a 5 personas a discord).
+12-Se pueden usar marcas malditas y sus jutsus.
+13-No se pueden usar jutsus, objetos ni nada relacionado con la  crate temporada 1 y 2.
+14-No se pueden usar frutas del diablo.
+15-Se pueden usar los jutsus esotericos
+16-Se puede usar los objetos, armaduras y lo relacionado con las raid semanales 
+17-No se pueden usar Jutsus de Kage ni Jutsu de Kage maestros.
+18-Se pueden usar los jutsus de aldea.
+19.Se puede llevar 1 pildora dorada o 3 pildoras basicas de chakra.
+20.Se puede usar armas de koth.
+21. Solo se puede usar un Genjutsu por combate. (Genjutsu del prodigio es considerado como un stun)
+22.Cuando empiezen los examenes no podreis cambiar nada de vuestro inv (ejemplo Combato contra alguien y despues le doy a otro de mi aldea un objeto que yo use), si se incumple esta norma directamente estais eliminados los dos.
+
+SI SE INCUMPLEN ESTAS NORMAS OS VAIS FUERA DE LOS EXAMENES.
+
+Normas examenes jounin:
+
+Jutsus:
+
+Jutsus de Clan, Elemento, Kekkei Genkai (Todos estos los obtenibles al subir de rango solamente), Estilo de Pelea. Prodigio, Jutsus Esotéricos y Herramientas Científicas permitidas. Spells Mitica, Legendaria, Storm.
+
+Armas:
+
+Todas, excepto Hiramekarei, Totsuka y Rita. Solo 1 respiracion
+
+Armaduras:
+
+Todas las armaduras sin restricciones.
+
+Comida:
+
+Cualquier tipo de comida.
+
+Pociones:
+
+Permitidas: Todas las pociones excepto la poción de invisibilidad.
+
+Objetos:
+
+Shurikens, bombas de humo y bombas venenosas, talismanes, pildoras.
+
+Invocaciones: Solo del clan (perro inozuka y golem de madera). Nada de golem de roca ni tampoco toad, slug y snake
+
+Mitica, Legendaria, Storm.
+
+1 vuelo 1 hidding in rock o similares de guarrerias para perder tiempo. (solo 1 vuelo o hiding no los dos)
+
+Bijuu Fase 1 y sus habilidades
+
+Reencarnaciones y Karma se pueden usar
+
+Añadiendo Jutsus de eventos se puede, menos usar el Akaza, El dominio y la fusion
+Pack Se puede tambien
+
+Las normas para el koth chunin y estilo serían:
+1- Abanico de temari prohibido igual que cosas que empujen constantemente a tu rival.
+2- No spamear la rotación Hyuga.
+3- No se puede usar más de una vez ninguna tecnica voladora ni de atravesar bloques
+4- Una cueva por captura ni más ni menos solamente un jutsu de cueva
+5- No se puede trapear en el ascensor
+
+
+Normas para el koth de aldeas:
+No puedes pegar a nadie que esté dentro de su aldea ni ellos a ti aunque estén dentro
+No se pueden jutsus de storm
+No se pueden mas de 1 prision por captura da igual que prision y si la tira gente diferente cada bando una prision
+No invocaciones
+Sin nada de empuje incluyendo la rotacion hyuga solo 1 si estas capturando tu
+Susano segunda fase maximo 1 por captura y bijuu maximo primera fase
+
+Normas pve:
+Incumplir cualquiera de estas normas otorgará primeramente la retirada del jutsu que se esté usando y repetirla de nuevo conllevará el baneo:
+Muro para que no te peguen
+Subirse en alto para que no te targetee el npc
+Pegar desde tan lejos que el npc no te pueda targetear
+Encerrarlo en el ataud de arena sin motivo de hacerle daño
+Water Shockwave prohibido para no tener que ir eliminando el agua
+1 golem de madera por captura
+
+Normas KOTH JOUNIN
+1 prision por captura 
+1 maximo de 1 invocacion por captura
+1 vuelo maximo por koth
+1 jutsu de atravesar bloques por koth
+prohibido jutsus de empuje q no esten relacionados con el biju o el clan (avanico, jutsus de viento,empuje divino...)
+
+Reglas del server de Minecraft: 
+
+Está prohibido abusar de los jugadores novatos matándolos repetidamente durante un
+corto plazo de tiempo.
+
+Gritar por el chat de voz en zonas comunes será sancionado.
+
+Para reclamar el robo un dojutsu (Sharingan, Byakugan, Rinnegan, etc...) o una bestia con cola,
+deberás adjuntar una captura tras matar al usuario  y el mensaje del chat donde se indica que le mataste.
+
+Prohibido matar ninjas en su aldea, solo se pueden matar fuera de las aldeas o en una
+aldea a la que no pertenezca el ninja. Excepto en caso de declaración de guerra.
+
+Para invadir una aldea enemiga deberás abrir un ticket al staff y comunicar una
+declaración de guerra con sus motivos. Los hokages deberán estar presentes en la
+invasión y enfrentarse, al igual que los ninjas que quieran participar los cuales pelearán en
+una batalla campal. El ganador obtendrá puntos de aldea y más recompensas.
+
+Hay restricciones de jutsus únicos, solo 1 en el inventario, en caso de tener más de uno puede ser
+retirado permanentemente. Tampoco se podrá tener más de un clan, varios bijuus en una persona o bijuu y doujutsu. 
+
+No se pueden usar jutsus de alto nivel como los de la crate storm o los únicos en eventos como el Koth
+o torneos a no ser que se especifique que se puede. (Rinnegan, Mangekyo, etc)
+
+En caso de morir en rol (usando las 8 puertas o siendo encerrado en la dimensión del
+kamui sin que nadie te quiera rescatar) tu personaje será reiniciado.
+
+Meterse a cuentas ajenas será sancionado con baneo de ip permanente.
+
+En caso de renegar de tu aldea, deberás ser mínimo chunin.
+
+No se cambia a nadie de aldea, si quieres otra aldea deberás morir en rol.
+Y está prohibido abusar del sistema.
+
+Todos los productos adquiridos en la tienda tendrán una invulnerabilidad de una semana,
+no podrás quitarle el bijuu a un comprador que no tenga más de una semana de
+anterioridad.
+
+No desconectarse en pvp.
+
+No vender objetos por dinero real, solo por dinero del juego
+
+No faltar el respeto o llevar la contraria a cualquier miembro del Staff, en caso de no estar
+de acuerdo con ellos, puedes mandar un ticket en soporte adjuntando la conversación.
+
+No utilizar tickets para tonterías o cosas que se resuelvan en la guía
+
+Si un Kage muere en rol perderá su puesto y la mitad de su ninjaxp
+
+No se puede cambiar de tiers 4 en mitad de un combate
+
+Un renegado solo puede atacar a gente de su tier o una menor
+
+Si alguien encierra bijuus en el gedo mazo al morir se liberarán en la tienda.
+Además solo los podrá encerrar si lleva el rinnegan puesto
+
+Si alguien muere con rinnegan o tenseigan perderá su clan tambien
+
+No se habla a ningun staff por privado a no ser que seas su amigo,
+los problemas por ⁠desconocido  o ⁠ en el canal de tickets
+
+           NORMATIVAS ASOCIACIONES
+Asociaciones de cinco personas como máximo.
+
+Una vez la asociación sea derrotada o se disuelva. Habrá dos opciones muerte de rol todos
+(empezáis de cero con tus cosas compradas si no te la han robado.) o volver a la aldea en la
+que pertenecías y recibir un castigo de tu kage.
