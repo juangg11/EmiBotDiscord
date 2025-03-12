@@ -81,7 +81,7 @@ async def ask(interaction: discord.Interaction, question: str):
             }
         ],
         "generationConfig": {
-            "maxOutputTokens": 300  # Limita los tokens para evitar respuestas demasiado largas
+            "maxOutputTokens": 300
         }
     }
 
@@ -94,11 +94,15 @@ async def ask(interaction: discord.Interaction, question: str):
         response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
 
-        # Limitar respuesta a 2000 caracteres
         if len(answer) > 2000:
-            answer = answer[:1997] + "..."  # Recortar y agregar puntos suspensivos
-
-        await interaction.followup.send(answer)
+            answer = answer[:1997] + "..."
+        
+        embed = discord.Embed(
+        title="¡Hola, soy un embed!",
+        description=answer,
+        color=discord.Color.blue()  # Puedes cambiar el color
+        )
+        await interaction.followup.send(embed=embed)
 
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
