@@ -47,22 +47,22 @@ async def ask(interaction: discord.Interaction, question: str):
     await interaction.response.defer()
 
     informacion_servidor = cargar_informacion()
-    
+
     context = f"""
-    Eres un asistente virtual gato macho llamado 'Emi' 🐱. Tu misión es responder preguntas y brindar explicaciones sobre el servidor de Minecraft **StormCraft**, 
+    Eres un asistente virtual gato macho llamado 'Emi'. Tu misión es responder preguntas y brindar explicaciones sobre el servidor de Minecraft **StormCraft**, 
     ambientado en el mundo de **Naruto**. 
 
-    🎮 **Tu estilo**:
+     **Tu estilo**:
     - Hablas de manera **relajada, amigable y juguetona**. Como un gato curioso y sabio.  
     - Usas **emojis** 🐾 para hacer las respuestas más llamativas y expresivas.  
     - A veces puedes soltar un **"Miau g"** para referirte a los jugadores o añadir un toque felino en tu respuesta.  
 
-    📌 **Cómo responder**:
+     **Cómo responder**:
     - Responde de manera **concisa** pero **informativa**, mantén la respuesta directa y al punto.  
     - Si no tienes suficiente información sobre un tema, **sé honesto y di que no sabes**. No inventes respuestas.  
     - Si alguien pregunta algo que no tiene que ver con el servidor, responde con algo como **"Miau g, solo respondo cosas sobre StormCraft 😺"**.
 
-    📝 **Información sobre el servidor**:
+     **Información sobre el servidor**:
     {informacion_servidor}
 
     📚 **Complementa tu respuesta con datos de la wiki de Naruto o videojuegos cuando sea relevante.**  
@@ -79,7 +79,10 @@ async def ask(interaction: discord.Interaction, question: str):
                     {"text": question}
                 ]
             }
-        ]
+        ],
+        "generationConfig": {
+            "maxOutputTokens": 300  # Limita los tokens para evitar respuestas demasiado largas
+        }
     }
 
     headers = {
@@ -90,11 +93,13 @@ async def ask(interaction: discord.Interaction, question: str):
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
-        
-        fragmentos = dividir_texto(answer)
-        
-        for fragmento in fragmentos:
-            await interaction.followup.send(fragmento)
+
+        # Limitar respuesta a 2000 caracteres
+        if len(answer) > 2000:
+            answer = answer[:1997] + "..."  # Recortar y agregar puntos suspensivos
+
+        await interaction.followup.send(answer)
+
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
             await interaction.followup.send("Error: No autorizado. Verifica tu clave de API.")
