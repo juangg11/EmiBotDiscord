@@ -220,7 +220,7 @@ Senju: Buena curacion invocacion de golem y stun de arboles.
 Uchiha: Capacidad de genjutsus y defensa con el sharingan y susanoo.
 
 [Jutsus de clan]
-Los jutsus de cada clan se pueden ver en el canal de discord llamado clanes dentro de la categoria de WIKI.
+Los jutsus de cada clan se pueden ver en el canal de discord llamado clanes dentro de la categoria de wiki.
 
 [Meta del servidor]
 Las cosas mas chetadas son las habilidades de algunos clanes, explora sus habilidades en chunin ya que pueden ser realmente poderosas. Ejemplos: Genjutsu Uchiha, Curacion de Hozuki, Stun Nara, Stun Aburame.
