@@ -1,3 +1,4 @@
+import random
 import discord
 import requests
 import json
@@ -23,6 +24,21 @@ class MyBot(commands.Bot):
 
 bot = MyBot() 
 
+def imagen_alazar():
+    imagenes = [
+        "https://lurei.wordpress.com/wp-content/uploads/2010/09/shark-attack.png",
+        "https://i.redd.it/fun-fact-deidara-is-the-only-character-to-fight-all-4-v0-t31q1yzcmzeb1.jpg?width=969&format=pjpg&auto=webp&s=c8c10ec75755ceb51609036fac77bcc37f5c19be",
+        "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/minato-rasengan-training-minato-one-shot-naruto.jpg",
+        "https://i.pinimg.com/736x/7a/68/24/7a68244dd5ce3a530286528c4b63251f.jpg",
+        "https://play-reactor.com/wp-content/uploads/2012/01/modo-bijuu.jpg",
+        "https://dailyanimeart.com/wp-content/uploads/2013/04/madara-and-hashirama-go-at-it.jpg?w=1112",
+        "https://i.redd.it/bruh-did-kakuzu-really-fought-hashirama-v0-5e1vmhxckhuc1.jpg?width=640&format=pjpg&auto=webp&s=d31d2b9c856b18fb2fa2c816149fabc421667cd1",
+        "https://preview.redd.it/ceb0x6ugul131.jpg?auto=webp&s=1fea2680ed5fb4682de1972dcf08cc04e9192dad",
+        "https://preview.redd.it/vmhz1zi4ebn41.jpg?auto=webp&s=178ac04f93caaeca10a52040233fdcfa3e57cee1"
+    ]
+
+    return random.choice(imagenes)
+    
 def cargar_informacion():
     try:
         with open("informacion.txt", "r", encoding="utf-8") as file:
@@ -101,6 +117,8 @@ async def ask(interaction: discord.Interaction, question: str):
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
         
         fragmentos = dividir_texto(answer)
+
+        url = imagen_alazar()
         
         for fragmento in fragmentos:
             embed = discord.Embed(
@@ -108,6 +126,7 @@ async def ask(interaction: discord.Interaction, question: str):
             description=fragmento,
             color=discord.Color.blue()
             )
+            embed.set_image(url=url)
             await interaction.followup.send(embed=embed)
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
