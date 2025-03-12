@@ -9,6 +9,7 @@ Recomendacion: Explora el mundo de Storm Craft hay muchas cosas que te ayudarán
 Cambia de Kekkei Genkai gratis farmeando en las raids boss de Madara, Minato, Equipo 7, Naruto Kyubi y Isshiki.
 Se obtiene en chunin y hay kekkei genkais que pueden obtener más jutsus pagando un pack en la tienda.
 Los kekkei genkai que hay son: Hielo. Ceniza, Lava, Magnetismo, Tormenta, Acero, Ácido, Vapor, Explosion y Tifon.
+Algunos son muy buenos para PVE como el Hielo o la Ceniza y otros destacan en el PVP como el Magnetismo el Acero y el Ácido.
 
 [Estilo de pelea]
 Espadachin: Rapido y veloz con ataques que ignoran las resistencias del adversario.
@@ -39,7 +40,7 @@ Otras: Hay crates que se consiguen en eventos temporales como Halloween y Navida
 - Requisitos:
   - Para sellar/implantar: ser Chunin prodigio o Jounin en el acto.
 
-- Métodos para robar un Doujutsu:
+- Métodos para robar un Doujutsu (Solo sharingan y byakugan):
 Para robar un doujutsu debes matar a alguien que lo posea y ser médico nivel 30. Podrás implantarselo a alguien cercano o a ti mismo solamente en el momento. Solo podrás robarlo a alguien que sea chunin o más y esta persona morirá.
 Además deberás avisar antes de hacerlo mediante un ticket y adjuntar pruebas de la muerte.
 
@@ -101,12 +102,14 @@ Los guias del server y las personas con rango S+ obtienen más recompensas de lo
 [Rinnegan y Tenseigan]
 - Rinnegan:
   - Requisitos: Sharingan y células Senju.
-  - Obtén Sharingan comprando Clan Uchiha o matando a un Uchiha (médico Jounin o Chunin prodigio).
+  - Obtén Sharingan comprando Clan Uchiha o matando a un Uchiha.
   - Obtén células Senju matando a un Senju (informa al Staff).
   - Para usarlo: ser Jounin prodigio, Kage o líder de organización.
 - Tenseigan:
-  - Requisitos: Clan Kaguya y Hyuga.
-  - Mismo proceso que el Rinnegan.
+  - Requisitos: Byakugan y células Kaguya.
+  - Obtén Sharingan comprando Clan Hyuga o matando a un Hyuga.
+  - Obtén células Kaguya matando a un Kaguya (informa al Staff).
+  - Para usarlo: ser Jounin prodigio, Kage o líder de organización.
 
 [Kage]
 - Elección:
@@ -160,20 +163,16 @@ Los guias del server y las personas con rango S+ obtienen más recompensas de lo
   - Útiles ninja, comida y 3 llaves (Clan, Elemento, Estilo de Pelea).
 - Usa las llaves en las Crates (Shift + Click Derecho).
 - Recomendación: Completa misiones para obtener un arma y jutsus elementales antes de fortalecerte en el entrenamiento. No te fies de ninjas de otra aldea pueden traicionarte.
-- Ninja Exp:
-  - Golpea a NPCs o jugadores.
-- Jutsu Exp:
+- Ninjaxp:
+  - Golpea a NPCs en el entrenamiento de tu aldea.
+- Jutsuxp:
   - Equipa el jutsu en la mano secundaria y mata ninjas de práctica.
 - Canjeo de Clan y Elemento:
-  - Busca NPCs en el spawn y canjea pergaminos.
+  - Busca NPCs en el spawn y canjea tus items por jutsus.
 - Dinero:
   - Farmea en dungeon, completa misiones, vende objetos en el mercado o caza jugadores del libro bingo.
 - Misiones:
   - Hay varios tipos pero deberias empezar haciendo las que manda el npc del kage de tu aldea.
-- Subir de Rango:
-  - Genin: Completa misiones principales.
-  - Chunin: Pasa exámenes o completa la dungeon Chunin.
-  - Jounin: Mision del kage con riesgo o hacer examenes Jounin.
 
 [Reencarnaciones]
 Obtención:
@@ -226,6 +225,16 @@ Cosas de evento como premios de torneo o de un evento temporal también suelen t
 Objetos de temporadas a parte de la exclusividad temporal son poderosos y únicos como respiraciones elementales (Agua, Rayo, Fuego, Bestia, Insecto, Viento y Sonido).
 Jinchurikis: Muy veloces con jutsus exclusivos de cada bijuu y capacidad de bijuudama.
 Doujutsus: Mangekyo Sharingan, Rinnegan, Tenseigan, Byakugan, Senringan y Kotaigan.
+
+Los clanes mas dominantes:
+Muy fuertes:
+Hozuki, Senju, Uchiha, Inozuka, Aburame, Nara, Lee, Hyuga
+Fuertes:
+Hoshigaki, Jashin, Akimichi, Namikaze
+Normales:
+Kaguya, Chinoike, Ryu, Yotsuki, Uzumaki
+Débiles o poco usados:
+Yamanaka, Kamizuru
 
 [Elegir aldea]
 Para elegir aldea debes escribir "!eligeAldea" en el chat de minecraft.
