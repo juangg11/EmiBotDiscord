@@ -2,15 +2,16 @@ import discord
 import requests
 import json
 from discord.ext import commands
+from discord import app_commands
 import os
 import webserver
+
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
 GEMINI_API_KEY = "AIzaSyBnaO6WXeemBkFS5jpaaltCfflvCltZgAY"
 
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='/', intents=intents)
 
 def cargar_informacion():
     try:
@@ -31,12 +32,11 @@ def dividir_texto(texto, limite=2000):
     fragmentos.append(texto)
     return fragmentos
 
-@bot.command(name='ask')
-async def ask(ctx, *, question: str):
-    await ctx.defer()
+@bot.tree.command(name="ask", description="Hazle una pregunta al bot Emi")
+async def ask(interaction: discord.Interaction, question: str):
+    await interaction.response.defer()
 
     informacion_servidor = cargar_informacion()
-
     context = (
         "Eres un asistente virtual gato macho llamado 'Emi'. Tu tarea es responder preguntas y brindar explicaciones breves "
         "sobre el servidor de Minecraft StormCraft ambientado en Naruto. "
@@ -46,7 +46,7 @@ async def ask(ctx, *, question: str):
         f"Aquí tienes información sobre el servidor:\n{informacion_servidor} "
         "Complementa esta información con datos de la wiki de Naruto o los videojuegos si corresponde."
     )
-    
+
     model = "gemini-2.0-flash-exp"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
     
@@ -67,27 +67,28 @@ async def ask(ctx, *, question: str):
 
     try:
         response = requests.post(url, headers=headers, json=data)
-        response.raise_for_status() 
+        response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
         
         fragmentos = dividir_texto(answer)
         
         for fragmento in fragmentos:
-            await ctx.send(fragmento)
+            await interaction.followup.send(fragmento)
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
-            await ctx.send("Error: No autorizado. Verifica tu clave de API.")
+            await interaction.followup.send("Error: No autorizado. Verifica tu clave de API.")
         elif response.status_code == 404:
-            await ctx.send("Error: Endpoint no encontrado. Revisa la URL o el modelo.")
+            await interaction.followup.send("Error: Endpoint no encontrado. Revisa la URL o el modelo.")
         else:
-            await ctx.send(f"Hubo un error al procesar la pregunta: {e}")
+            await interaction.followup.send(f"Hubo un error al procesar la pregunta: {e}")
     except Exception as e:
-        await ctx.send(f"Hubo un error al procesar la pregunta: {e}")
-    
+        await interaction.followup.send(f"Hubo un error al procesar la pregunta: {e}")
+
 # Evento cuando el bot está listo
 @bot.event
 async def on_ready():
-    print(f'{bot.user} ha iniciado sesión en Discord.')
+    await bot.tree.sync()
+    print(f'{bot.user} ha iniciado sesión en Discord y los comandos están sincronizados.')
 
 # Iniciar el bot
 webserver.keep_alive()
