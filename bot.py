@@ -114,7 +114,6 @@ async def ask(interaction: discord.Interaction, question: str):
     except Exception as e:
         await interaction.followup.send(f"Hubo un error al procesar la pregunta: {e}")
 
-
 # Evento cuando el bot está listo
 @bot.event
 async def on_ready():
