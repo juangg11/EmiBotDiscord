@@ -70,7 +70,7 @@ async def ask(interaction: discord.Interaction, question: str):
             }
         ],
         "generationConfig": {
-            "maxOutputTokens": 50
+            "maxOutputTokens": 300
         }
     }
 
