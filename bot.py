@@ -34,12 +34,21 @@ def cargar_informacion():
 def dividir_texto(texto, limite=2000):
     fragmentos = []
     while len(texto) > limite:
-        ultimo_espacio = texto.rfind(' ', 0, limite)
-        if ultimo_espacio == -1:
-            ultimo_espacio = limite
-        fragmentos.append(texto[:ultimo_espacio])
-        texto = texto[ultimo_espacio:].lstrip()
-    fragmentos.append(texto)
+        ultimo_punto = texto.rfind('.', 0, limite)
+        ultimo_salto = texto.rfind('\n', 0, limite)
+
+        if ultimo_punto == -1 and ultimo_salto == -1:
+            ultimo_punto = texto.rfind(' ', 0, limite)
+        else:
+            ultimo_punto = max(ultimo_punto, ultimo_salto)
+
+        if ultimo_punto == -1:
+            ultimo_punto = limite
+
+        fragmentos.append(texto[:ultimo_punto + 1].strip())
+        texto = texto[ultimo_punto + 1:].lstrip()
+
+    fragmentos.append(texto.strip()) 
     return fragmentos
 
 @bot.tree.command(name="ask", description="Hazle una pregunta al bot Emi")
@@ -100,7 +109,6 @@ async def ask(interaction: discord.Interaction, question: str):
             color=discord.Color.blue()
             )
             await interaction.followup.send(embed=embed)
-            await interaction.followup.send(fragmento)
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
             await interaction.followup.send("Error: No autorizado. Verifica tu clave de API.")
