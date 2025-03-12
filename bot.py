@@ -31,17 +31,6 @@ def cargar_informacion():
         print("Error: El archivo 'informacion.txt' no se encontró.")
         return ""
 
-def dividir_texto(texto, limite=500):
-    fragmentos = []
-    while len(texto) > limite:
-        ultimo_espacio = texto.rfind(' ', 0, limite)
-        if ultimo_espacio == -1:
-            ultimo_espacio = limite
-        fragmentos.append(texto[:ultimo_espacio])
-        texto = texto[ultimo_espacio:].lstrip()
-    fragmentos.append(texto)
-    return fragmentos
-
 @bot.tree.command(name="ask", description="Hazle una pregunta al bot Emi")
 async def ask(interaction: discord.Interaction, question: str):
     await interaction.response.defer()
@@ -81,7 +70,7 @@ async def ask(interaction: discord.Interaction, question: str):
             }
         ],
         "generationConfig": {
-            "maxOutputTokens": 300
+            "maxOutputTokens": 50
         }
     }
 
@@ -93,16 +82,12 @@ async def ask(interaction: discord.Interaction, question: str):
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
-
-        fragmentos = dividir_texto(answer, 4096)
-
-        for i, fragmento in enumerate(fragmentos):
-            embed = discord.Embed(
-                title=interaction.user.name + " pregunta: " + question if i == 0 else "Continuación...",
-                description=fragmento,
-                color=discord.Color.blue()
-            )
-            await interaction.followup.send(embed=embed)
+            
+        embed = discord.Embed(
+            title=interaction.user.name + " pregunta: " + question,
+            description=answer,
+            color=discord.Color.blue()
+        )
 
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
