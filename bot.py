@@ -82,6 +82,9 @@ async def ask(interaction: discord.Interaction, question: str):
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
+        
+        if len(answer) > 2000:
+            answer = answer[:1997] + "..."
             
         embed = discord.Embed(
             title=interaction.user.name + " pregunta: " + question,
