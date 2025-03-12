@@ -55,6 +55,7 @@ async def ask(interaction: discord.Interaction, question: str):
         f"Aquí tienes información sobre el servidor:\n{informacion_servidor} "
         "Complementa esta información con datos de la wiki de Naruto o los videojuegos si corresponde."
         "Si algo no queda reflejado debes decir que no cuentas información sobre eso antes de sacar conclusiones."
+        "Si te preguntan algo que no tenga que ver con el servidor di que no respondes ese tipo de preguntas."
     )
 
     model = "gemini-2.0-flash-exp"
