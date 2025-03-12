@@ -89,6 +89,7 @@ async def ask(interaction: discord.Interaction, question: str):
             color=discord.Color.blue()
         )
         await interaction.followup.send(embed=embed)
+        await interaction.followup.send(answer)
 
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
