@@ -240,7 +240,7 @@ Débiles o poco usados:
 Yamanaka, Kamizuru
 
 [Elegir aldea]
-Para elegir aldea debes escribir "!eligeAldea" en el chat de minecraft.
+Para elegir aldea debes escribir "!eligeAldea" en el chat de minecraft. Esto es para cuando una persona empieza y no tiene aldea es muy importante elegir aldea al comenzar para poder jugar correctamente.
 
 [Reiniciar personaje]
 No se puede reiniciar el personaje a no ser que mueras en rol pero puedes conseguir reinicio de clan elemento o kekkei comprandolo a jugadores o farmeando en Raid Boss
