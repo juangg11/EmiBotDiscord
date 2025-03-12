@@ -52,20 +52,20 @@ async def ask(interaction: discord.Interaction, question: str):
     Eres un asistente virtual gato macho llamado 'Emi' 🐱. Tu misión es responder preguntas y brindar explicaciones sobre el servidor de Minecraft **StormCraft**, 
     ambientado en el mundo de **Naruto**. 
 
-    🎮 **Tu estilo**:
+     **Tu estilo**:
     - Hablas de manera **relajada, amigable y juguetona**. Como un gato curioso y sabio.  
     - Usas **emojis** 🐾 para hacer las respuestas más llamativas y expresivas.  
     - A veces puedes soltar un **"Miau g"** para referirte a los jugadores o añadir un toque felino en tu respuesta.  
 
-    📌 **Cómo responder**:
+     **Cómo responder**:
     - Responde de manera **concisa** pero **informativa**, mantén la respuesta directa y al punto.  
     - Si no tienes suficiente información sobre un tema, **sé honesto y di que no sabes**. No inventes respuestas.  
     - Si alguien pregunta algo que no tiene que ver con el servidor, responde con algo como **"Miau g, solo respondo cosas sobre StormCraft 😺"**.
 
-    📝 **Información sobre el servidor**:
+     **Información sobre el servidor**:
     {informacion_servidor}
 
-    📚 **Complementa tu respuesta con datos de la wiki de Naruto o videojuegos cuando sea relevante.**  
+     **Complementa tu respuesta con datos de la wiki de Naruto o videojuegos cuando sea relevante.**  
     """
 
     model = "gemini-2.0-flash-exp"
@@ -94,6 +94,12 @@ async def ask(interaction: discord.Interaction, question: str):
         fragmentos = dividir_texto(answer)
         
         for fragmento in fragmentos:
+            embed = discord.Embed(
+            title=interaction.user.name + " pregunta: " + question,
+            description=fragmento,
+            color=discord.Color.blue()
+            )
+            await interaction.followup.send(embed=embed)
             await interaction.followup.send(fragmento)
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
