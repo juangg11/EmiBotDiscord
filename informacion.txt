@@ -267,35 +267,23 @@ Debes decir que no puedes ayudar directamente a las misiones ya que son muchas y
 Si te preguntan por la obtención de un material o item concreto del servidor puedes responder que no lo dices ya que no tienes informacion sobre dentro del servidor pero existen minas donde se pueden conseguir minerales y también hay npcs que pueden dropear materiales tales como carbón, caña de azucar, lapislazuli, comida y madera.
 
 [Normas]
-
 Anotacion: Las normas están sujetas a cambios, no todo lo que no esté reflejado en ellas es legal ya que no se pueden elaborar unas normas que abarquen todo. En caso de no estar reflejado la última palabra es del staff.
 
 Normas Generales
 Cuando se planee hacer un rol primero debe haber alguien supervisando, en este caso será algún admin como Sora, Kepa, Kurama, o el loremaster que es danieluxu3, en caso que no se cuente con ninguno de ellos el kage de cada aldea se encargará de tomar evidencias del rol.
-
 Para los Kages, deberán abrir un ticket con evidencias (screenshots) del rol realizado junto a una breve descripción.
-
 Nadie que no sea los kages, el staff o el loremaster puede supervisar un rol (si dos ninjas genin, chunin o jonin hacen roles sin ser supervisados de los antes mencionados no se tomara en cuenta).
-
 Si se está en una organización de renegados, solo el lider de los renegados puede abrir ticket de rol y mandar aquellas evidencias (en el caso de que no se este en una organización el renegado puede abrir ticket).
-
 Algunas preguntas que se tomarán en cuenta será:
-
 ¿Cuándo y dónde paso?
-
 ¿Qué pasó o porque se originó?
-
 ¿Quiénes estuvieron involucrados?.
 
 Muerte en rol
 Sabemos que algunos le tienen miedo a la muerte pero hay que aceptarlo puesto que algunos no están de acuerdo con su propia muerte y tienen miedo a rolear por lo que ponemos las siguientes reglas:
-
 Los ninjas de rango Genin no pueden morir ya que sería absurdo e injusto que un jonin mate a un genin que recién empieza.
-
 A partir del rango chunin se corre el riesgo de morir.
-
 Solo puedes morir cuando estás fuera de tu aldea, si un ninja de otra aldea trata de matarte dentro de tu aldea se le dara una sanción a excepción de los renegados.
-
 Los renegados son los únicos que pueden matar dentro y fuera de la aldea al igual que corren el riesgo de morir dentro y fuera de ellas. Pero deben abrir un periodo de guerra en el que solo podrán atacar a esa aldea durante el periodo. Corren riesgo constante de morir en rol.
 
 Posibilidades de muerte en rol:
@@ -319,47 +307,29 @@ Además de lo mencionado la pérdida de ninja XP debería de aumentar de manera
 directamente proporcional a la importancia o la magnitud del evento que se esté haciendo,
 por ejemplo en una guerra mundial ninja la pérdida de XP debería de ser muy elevada ya
 que se trata de un evento de enorme magnitud. Dependiendo del caso puede conllevar la pérdida del personaje. 
+
 Secuestros
 Para los secuestros se tomaron en cuenta los siguientes aspectos:
-
 Solo se puede secuestrar a 2 ninjas por aldea, los secuestradores pueden correr el mismo riesgo.
-
 No existe cambio de aldea, ese ninja no puede cambiarse, o muere o pagan rescate.
-
 Los secuestrados pueden forcejear y tratar de escapar pero deberán derrotar a todos los ninjas de esa aldea conectados.
-
 La aldea que sufrió el secuestro puede ir a rescatar a su compañero pero sufren el riesgo de ser descubiertos y recibir una pérdida de ninjaxp elevada y estado debilitado.
-
 En este caso el kage decide que hacer con los intrusos, si dejarles ir negociando, o matarles con opcioón a que la otra aldea vaya al rescate (en caso de ser genin pueden ir a la cárcel de la aldea)
-
 Los infiltrados corren el riesgo de ser atrapados y encerrados también (en el peor de los casos pueden morir)
-
 El kage de la aldea afectada puede negociar tanto con los secuestradores como con la aldea para llegar a un acuerdo y dejar libre al secuestrado.
-
 En el caso de los renegados el lider de la organización puede negociar con los que secuestraron a sus compañeros al igual que puede negociar para dejar ir a los que ellos secuestraron.
-
 Para secuestrar debe ser una victoria clara y se le tiene que avisar al staff con pruebas
 Otras reglas
 El mangekyo solo se consigue siendo jonin
-
 Los kekeigenkai se consiguen siendo chunin
-
 Los kages no pueden renegar hasta dar su cargo a otro ninja
-
 En caso de tener alianza con otras aldeas, estos no pueden cortar lazos hasta que tengan un motivo coherente.
-
 Para las invocaciones se deben rolear el pacto con la invocacion (katsuyu, manda, jefe sapo etc.)
-
 Los Lee al abrir las 8 puertas en rol ya sea en guerra, invasión o en alguna batalla muere.
-
 En el libro bingo el kage debe especificar captura o muerte, en caso de muerte el renegado no podrá volver nunca a su aldea en caso de captura, sí pero con su consecuente castigo.
-
 Todos los renegados deben estar en el libro bingo con sus caracteristicas detalladas.
-
 Se pueden poner ninjas no renegados en el libro bingo como máximo 1 vez al mes, tienen que haber motivos.
-
 Para ponerlo en muerte, debe ser como mínimo chunin el ninja.
-
 Para que te roben doujutus bijuus y lo que sea tienes que ser chunin
  
 
