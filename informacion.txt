@@ -21,7 +21,7 @@ El estilo de pelea no se puede cambiar a no ser que haya un wipe.
 [Crates comprables]
 Hay varias crates:
 Mitica Legendaria y Storm: Son 3 crates que cuentan con jutsus elementales, talismanes, invocaciones y Doujutsus legendarios como el Kotaigan y el Senringan. Comprables.
-Temporada: Cambia cada ciertos meses tiene jutsus, invocaciones y cosas exclusivas temporalmente muy poderosa. Comprable.
+Temporada: Cambia cada ciertos meses tiene jutsus, invocaciones y cosas exclusivas temporalmente muy poderosa. Comprable u obtenible en el battlepass cada 10 niveles.
 Prodigio: Se puede conseguir una Reencarnacion o ser prodigio. Comprable.
 Chakra natural: Se pueden conseguir marcas malditas y modos sabios sapo serpiente y babosa.
 Vote: Se consigue al votar por el servidor con "/vote".
