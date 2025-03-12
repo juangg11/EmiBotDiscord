@@ -94,11 +94,11 @@ async def ask(interaction: discord.Interaction, question: str):
         response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
 
-        if len(answer) > 2000:
-            answer = answer[:1997] + "..."
+        if len(answer) > 1000:
+            answer = answer[:997] + "..."
         
         embed = discord.Embed(
-        title= interaction.user.name + "pregunta: "+ question,
+        title= interaction.user.name + " pregunta: "+ question,
         description=answer,
         color=discord.Color.blue()  # Puedes cambiar el color
         )
