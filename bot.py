@@ -31,7 +31,7 @@ def cargar_informacion():
         print("Error: El archivo 'informacion.txt' no se encontró.")
         return ""
 
-def dividir_texto(texto, limite=2000):
+def dividir_texto(texto, limite=1000):
     fragmentos = []
     while len(texto) > limite:
         ultimo_espacio = texto.rfind(' ', 0, limite)
