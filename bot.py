@@ -98,7 +98,7 @@ async def ask(interaction: discord.Interaction, question: str):
             answer = answer[:1997] + "..."
         
         embed = discord.Embed(
-        title=question,
+        title= interaction.user.name + "pregunta: "+ question,
         description=answer,
         color=discord.Color.blue()  # Puedes cambiar el color
         )
