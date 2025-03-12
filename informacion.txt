@@ -212,7 +212,7 @@ Kaguya: Buena defensa con la armadura de huesos y genera armas de huesos.
 Ryu: Controla tecnicas ofensivas y de vuelo.
 Jashin: Pega porcentualmente y es capaz de volverse inmortal.
 Chinoike: Tiene genjutsus y daño controla sangre.
-Hozuki: Se puede transformar en tiburon y tiene mucho chakra.
+Hoshigaki: Se puede transformar en tiburon y tiene mucho chakra.
 
 [Clanes Legendarios]
 Tienen 2% de salir en la crate.
