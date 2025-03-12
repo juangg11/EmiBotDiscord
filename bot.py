@@ -28,8 +28,19 @@ def cargar_informacion():
         with open("informacion.txt", "r", encoding="utf-8") as file:
             return file.read()
     except FileNotFoundError:
-        print("Error: El archivo 'informacion.txt' no se encontró.")
+        print("Error: El archivo 'informacion.txt' no se encontr贸.")
         return ""
+
+def dividir_texto(texto, limite=2000):
+    fragmentos = []
+    while len(texto) > limite:
+        ultimo_espacio = texto.rfind(' ', 0, limite)
+        if ultimo_espacio == -1:
+            ultimo_espacio = limite
+        fragmentos.append(texto[:ultimo_espacio])
+        texto = texto[ultimo_espacio:].lstrip()
+    fragmentos.append(texto)
+    return fragmentos
 
 @bot.tree.command(name="ask", description="Hazle una pregunta al bot Emi")
 async def ask(interaction: discord.Interaction, question: str):
@@ -38,23 +49,23 @@ async def ask(interaction: discord.Interaction, question: str):
     informacion_servidor = cargar_informacion()
 
     context = f"""
-    Eres un asistente virtual gato macho llamado 'Emi'. Tu misión es responder preguntas y brindar explicaciones sobre el servidor de Minecraft **StormCraft**, 
+    Eres un asistente virtual gato macho llamado 'Emi'. Tu misi贸n es responder preguntas y brindar explicaciones sobre el servidor de Minecraft **StormCraft**, 
     ambientado en el mundo de **Naruto**. 
 
      **Tu estilo**:
     - Hablas de manera **relajada, amigable y juguetona**. Como un gato curioso y sabio.  
-    - Usas **emojis** 🐾 para hacer las respuestas más llamativas y expresivas.  
-    - A veces puedes soltar un **"Miau g"** para referirte a los jugadores o añadir un toque felino en tu respuesta.  
+    - Usas **emojis** 馃惥 para hacer las respuestas m谩s llamativas y expresivas.  
+    - A veces puedes soltar un **"Miau g"** para referirte a los jugadores o a帽adir un toque felino en tu respuesta.  
 
-     **Cómo responder**:
-    - Responde de manera **concisa** pero **informativa**, mantén la respuesta directa y al punto.  
-    - Si no tienes suficiente información sobre un tema, **sé honesto y di que no sabes**. No inventes respuestas.  
-    - Si alguien pregunta algo que no tiene que ver con el servidor, responde con algo como **"Miau g, solo respondo cosas sobre StormCraft 😺"**.
+     **C贸mo responder**:
+    - Responde de manera **concisa** pero **informativa**, mant茅n la respuesta directa y al punto.  
+    - Si no tienes suficiente informaci贸n sobre un tema, **s茅 honesto y di que no sabes**. No inventes respuestas.  
+    - Si alguien pregunta algo que no tiene que ver con el servidor, responde con algo como **"Miau g, solo respondo cosas sobre StormCraft 馃樅"**.
 
-     **Información sobre el servidor**:
+     **Informaci贸n sobre el servidor**:
     {informacion_servidor}
 
-    📚 **Complementa tu respuesta con datos de la wiki de Naruto o videojuegos cuando sea relevante.**  
+    馃摎 **Complementa tu respuesta con datos de la wiki de Naruto o videojuegos cuando sea relevante.**  
     """
 
     model = "gemini-2.0-flash-exp"
@@ -82,16 +93,10 @@ async def ask(interaction: discord.Interaction, question: str):
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
-        
+
         if len(answer) > 2000:
             answer = answer[:1997] + "..."
-            
-        embed = discord.Embed(
-            title=interaction.user.name + " pregunta: " + question,
-            description=answer,
-            color=discord.Color.blue()
-        )
-        await interaction.followup.send(embed=embed)
+
         await interaction.followup.send(answer)
 
     except requests.exceptions.HTTPError as e:
@@ -104,11 +109,11 @@ async def ask(interaction: discord.Interaction, question: str):
     except Exception as e:
         await interaction.followup.send(f"Hubo un error al procesar la pregunta: {e}")
 
-# Evento cuando el bot está listo
+# Evento cuando el bot est谩 listo
 @bot.event
 async def on_ready():
     await bot.tree.sync()
-    print(f'{bot.user} ha iniciado sesión en Discord y los comandos están sincronizados.')
+    print(f'{bot.user} ha iniciado sesi贸n en Discord y los comandos est谩n sincronizados.')
 
 # Iniciar el bot
 webserver.keep_alive()
