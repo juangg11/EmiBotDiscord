@@ -34,11 +34,28 @@ def imagen_alazar():
         "https://dailyanimeart.com/wp-content/uploads/2013/04/madara-and-hashirama-go-at-it.jpg?w=1112",
         "https://i.redd.it/bruh-did-kakuzu-really-fought-hashirama-v0-5e1vmhxckhuc1.jpg?width=640&format=pjpg&auto=webp&s=d31d2b9c856b18fb2fa2c816149fabc421667cd1",
         "https://preview.redd.it/ceb0x6ugul131.jpg?auto=webp&s=1fea2680ed5fb4682de1972dcf08cc04e9192dad",
+        "https://wallpapers.com/images/high/naruto-manga-pictures-16crc9y08xfpf1fz.webp",
+        "https://preview.redd.it/in-your-opinion-what-is-the-best-naruto-manga-panel-v0-j3vd0uhf9vic1.jpeg?auto=webp&s=c440ae6c179746d666eab7cbf2dd449650194570",
+        "https://dailyanimeart.com/wp-content/uploads/2014/04/naruto-and-sasuke-vs-madara-header1.png?w=730",
+        "https://e0.pxfuel.com/wallpapers/702/164/desktop-wallpaper-high-resolution-naruto-manga-alecto-connachan-manga-panel.jpg",
+        "https://pbs.twimg.com/media/EuSUk2mXMA8Z-yU.jpg",
+        "https://i.pinimg.com/550x/30/94/b5/3094b5c3ce16be45a8ccf29c015550ec.jpg",
+        "https://i.pinimg.com/originals/65/a0/53/65a0533ef50665cfb37747707a904bfd.png",
+        "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/05/naruto-and-gaara-are-mirror-images-of-each-other.jpg",
+        "https://64.media.tumblr.com/018fd453d6ab90f4d4f384e4f1ba49dc/tumblr_p5asvkGozg1wn6oeco1_1280.jpg",
+        "https://s1.zerochan.net/NARUTO.600.1291562.jpg",
+        "https://pbs.twimg.com/media/GeVkdifbEAAgD4z.png:large",
+        "https://pbs.twimg.com/media/EMUkDKVVUAAvaUI.jpg",
+        "https://static.zerochan.net/Orochimaru.full.4054191.jpg",
+        "https://i.pinimg.com/736x/81/85/5e/81855eb921b82e0221cc099cceafe1e9.jpg",
+        "https://iareawesomeness.wordpress.com/wp-content/uploads/2009/02/jiraiyaminatonaruto.jpg?w=584",
+        "https://comicvine.gamespot.com/a/uploads/original/11130/111307227/7581777-3047237936-wcWoP.jpg",
+        "https://pbs.twimg.com/media/FugML0GXgAEW1-5.png",
         "https://preview.redd.it/vmhz1zi4ebn41.jpg?auto=webp&s=178ac04f93caaeca10a52040233fdcfa3e57cee1"
     ]
 
     return random.choice(imagenes)
-    
+
 def cargar_informacion():
     try:
         with open("informacion.txt", "r", encoding="utf-8") as file:
@@ -119,7 +136,7 @@ async def ask(interaction: discord.Interaction, question: str):
         fragmentos = dividir_texto(answer)
 
         url = imagen_alazar()
-        
+
         for fragmento in fragmentos:
             embed = discord.Embed(
             title=interaction.user.name + " pregunta: " + question,
