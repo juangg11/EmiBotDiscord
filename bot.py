@@ -13,6 +13,16 @@ GEMINI_API_KEY = "AIzaSyBnaO6WXeemBkFS5jpaaltCfflvCltZgAY"
 intents = discord.Intents.default()
 intents.message_content = True
 
+class MyBot(commands.Bot):
+    def __init__(self):
+        super().__init__(command_prefix="!", intents=intents)
+    
+    async def setup_hook(self):
+        await self.tree.sync()
+        print("Comandos sincronizados.")
+
+bot = MyBot() 
+
 def cargar_informacion():
     try:
         with open("informacion.txt", "r", encoding="utf-8") as file:
