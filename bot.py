@@ -94,15 +94,15 @@ async def ask(interaction: discord.Interaction, question: str):
         response.raise_for_status()
         answer = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "No pude generar una respuesta.")
 
-        if len(answer) > 1000:
-            answer = answer[:997] + "..."
-        
-        embed = discord.Embed(
-        title= interaction.user.name + " pregunta: "+ question,
-        description=answer,
-        color=discord.Color.blue()  # Puedes cambiar el color
-        )
-        await interaction.followup.send(embed=embed)
+        fragmentos = dividir_texto(answer, 4096)
+
+        for i, fragmento in enumerate(fragmentos):
+            embed = discord.Embed(
+                title=interaction.user.name + " pregunta: " + question if i == 0 else "Continuación...",
+                description=fragmento,
+                color=discord.Color.blue()
+            )
+            await interaction.followup.send(embed=embed)
 
     except requests.exceptions.HTTPError as e:
         if response.status_code == 401:
@@ -113,6 +113,7 @@ async def ask(interaction: discord.Interaction, question: str):
             await interaction.followup.send(f"Hubo un error al procesar la pregunta: {e}")
     except Exception as e:
         await interaction.followup.send(f"Hubo un error al procesar la pregunta: {e}")
+
 
 # Evento cuando el bot está listo
 @bot.event
